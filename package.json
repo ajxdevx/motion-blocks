@@ -41,7 +41,9 @@
     "build:css": "tailwindcss -i ./src/styles/index.css -o ./dist/style.css --minify",
     "lint": "eslint src demo",
     "typecheck": "tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build",
+    "publish:npm": "npm publish --access public"
   },
   "peerDependencies": {
     "framer-motion": "^11.0.0 || ^12.0.0",
@@ -93,5 +95,8 @@
     "blocks",
     "tailwind",
     "nextjs"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
