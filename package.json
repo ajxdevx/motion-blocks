@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajxdevx/motion-blocks"
+    "url": "git+https://github.com/ajxdevx/motion-blocks.git"
   },
   "bugs": {
     "url": "https://github.com/ajxdevx/motion-blocks/issues"
