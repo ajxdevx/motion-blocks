@@ -31,7 +31,7 @@ import {
   Testimonials,
   TiltCard,
   TypewriterText,
-} from "motion-blocks";
+} from "@ajxdevx/motion-blocks";
 
 const navLinks = [
   { label: "Text", href: "#text" },
@@ -243,12 +243,7 @@ export default function App() {
       </section>
 
       <footer className="border-t border-neutral-800 px-6 py-12 text-center text-neutral-500">
-        <p>motion-blocks v1.0 — Animated React components for modern websites</p>
-        <p className="mt-2">
-          <a href="https://motionblocks.dev" className="text-violet-400 hover:underline">
-            motionblocks.dev
-          </a>
-        </p>
+        <p>@ajxdevx/motion-blocks v1.0 — Animated React components for modern websites</p>
       </footer>
     </div>
   );

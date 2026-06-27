@@ -19,7 +19,7 @@
     "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "motion-blocks": ["./src/index.ts"]
+      "@ajxdevx/motion-blocks": ["./src/index.ts"]
     }
   },
   "include": ["src", "demo", "tsup.config.ts"],

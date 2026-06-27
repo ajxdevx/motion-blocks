@@ -1,10 +1,9 @@
 {
-  "name": "motion-blocks",
+  "name": "@ajxdevx/motion-blocks",
   "version": "1.0.0",
   "description": "Animated React components for modern websites.",
   "author": "Anass Jid",
   "license": "MIT",
-  "homepage": "https://motionblocks.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/ajxdevx/motion-blocks"

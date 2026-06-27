@@ -2,8 +2,6 @@
 
 **Animated React components for modern websites.**
 
-[motionblocks.dev](https://motionblocks.dev)
-
 A comprehensive motion component library for React, Next.js, Vite, and modern frontend projects. Built with Framer Motion, optional GSAP scroll support, TypeScript, and Tailwind-friendly customization.
 
 **v1.0** includes **88 components**, **15 hooks**, and **12 utility modules**.
@@ -11,7 +9,7 @@ A comprehensive motion component library for React, Next.js, Vite, and modern fr
 ## Installation
 
 ```bash
-npm install motion-blocks framer-motion
+npm install @ajxdevx/motion-blocks framer-motion
 ```
 
 Optional (for advanced scroll animations):
@@ -31,8 +29,8 @@ import {
   MagneticButton,
   ScrollReveal,
   AnimatedCard,
-} from "motion-blocks";
-import "motion-blocks/styles.css";
+} from "@ajxdevx/motion-blocks";
+import "@ajxdevx/motion-blocks/styles.css";
 
 export function LandingPage() {
   return (
@@ -69,7 +67,7 @@ Components use client-side animation. Wrap usage in a Client Component:
 Import styles in your root layout:
 
 ```tsx
-import "motion-blocks/styles.css";
+import "@ajxdevx/motion-blocks/styles.css";
 ```
 
 ## Component Categories

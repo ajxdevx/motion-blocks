@@ -7,7 +7,7 @@ export default defineConfig({
   root: ".",
   resolve: {
     alias: {
-      "motion-blocks": resolve(__dirname, "src/index.ts"),
+      "@ajxdevx/motion-blocks": resolve(__dirname, "src/index.ts"),
     },
   },
   server: {
