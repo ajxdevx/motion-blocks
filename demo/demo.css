@@ -1,0 +1,11 @@
+@import "../src/styles/index.css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-neutral-950 text-neutral-100 font-sans;
+  }
+}
